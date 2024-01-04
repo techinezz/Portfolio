@@ -2,6 +2,7 @@ import logo from "./logo.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import linkedin from "./linkedin.jpg";
 
 import css from "./tech/css.png";
 import html from "./tech/html.png";
@@ -23,6 +24,7 @@ import comingsoon from "./company/comingsoon.jpg";
 export {
   logo,
   github,
+  linkedin,
   menu,
   close,
   css,

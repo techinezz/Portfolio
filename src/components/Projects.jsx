@@ -33,12 +33,8 @@ const ProjectCard = ({
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
+            <div onClick={() => window.open(source_code_link, "_blank")} className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
+              <img src={github}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
@@ -74,10 +70,7 @@ const Projects = () => {
       </motion.div>
 
       <div className='w-full flex'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-black text-[20px] leading-[30px] text-center'
-        >
+        <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-3 text-black text-[20px] leading-[30px] text-center'>
           These projects reflect my personal interests and mark the beginning of an exciting journey in front-end development. 
           Eager to delve deeper into this field, I look forward to exploring new technologies and learning valuable skills and techniques 
           from experienced software engineers.
