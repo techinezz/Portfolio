@@ -12,17 +12,13 @@ import python from "./tech/python.png";
 import java from "./tech/java.png";
 import cpp from "./tech/cpp.png";
 
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
 import kickx from "./kickx.png";
 import gendex from "./gendex.png";
 import mangacon from "./mangacon.png";
 import gemstats from "./gemstats.png";
 import portfolio from "./portfolio.png";
+
+import comingsoon from "./company/comingsoon.jpg";
 
 export {
   logo,
@@ -37,13 +33,10 @@ export {
   python,
   java,
   cpp,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   kickx,
   gendex,
   mangacon,
   gemstats,
   portfolio,
+  comingsoon,
 };
