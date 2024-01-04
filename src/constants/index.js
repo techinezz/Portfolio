@@ -15,6 +15,7 @@ import {
     gendex,
     mangacon,
     gemstats,
+    portfolio,
   } from "../assets";
   
   export const navLinks = [
@@ -125,62 +126,83 @@ import {
   
   const projects = [
     {
-      name: "KickX",
+      name: "Portfolio Website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The portfolio website is to effectively displays my range of projects, including detailed descriptions and links to live demos or code repositories.",
       tags: [
         {
-          name: "react",
+          name: "Next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "React.js",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "TypeScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "KickX",
+      description:
+        "Utilized Next.js 14 to build a modern and performant online shoe store. Implemented Stripe's payment gateway to ensure secure and reliable transaction processing",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TypeScript",
           color: "pink-text-gradient",
         },
       ],
       image: kickx,
-      source_code_link: "https://github.com/techinezz/shoes-ecommerce",
+      source_code_link: "https://github.com/techinezz/KickX",
     },
     {
       name: "Gendex",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Built an interactive web application using React and Next.js that allows users to search for and view information about various Pokémon using the PokemonAPI.",
       tags: [
         {
-          name: "react",
+          name: "Next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "React.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
       image: gendex,
-      source_code_link: "https://github.com/techinezz/pokedex",
+      source_code_link: "https://github.com/techinezz/Gendex",
     },
     {
       name: "MangaCon",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        " Developed a responsive web application using HTML and CSS that allows users to read manga online. Enhanced website functionality with JavaScript",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Javascript",
           color: "pink-text-gradient",
         },
       ],
@@ -190,65 +212,23 @@ import {
     {
       name: "GemStats",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Built a responsive web application using HTML and CSS and the PokemonAPI that allows users to view their League of Legends statistics.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Javascript",
           color: "pink-text-gradient",
         },
       ],
       image: gemstats,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Gendex",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: gendex,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "MangaCon",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: mangacon,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/techinezz/GemStats",
     },
   ];
   

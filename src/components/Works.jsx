@@ -78,15 +78,13 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-black text-[20px] leading-[30px] text-center'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          These projects reflect my personal interests and mark the beginning of an exciting journey in front-end development. 
+          Eager to delve deeper into this field, I look forward to exploring new technologies and learning valuable skills and techniques 
+          from experienced software engineers.
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 gap-7 flex justify-center flex-wrap'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

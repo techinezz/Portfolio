@@ -22,6 +22,7 @@ import kickx from "./kickx.png";
 import gendex from "./gendex.png";
 import mangacon from "./mangacon.png";
 import gemstats from "./gemstats.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -44,4 +45,5 @@ export {
   gendex,
   mangacon,
   gemstats,
+  portfolio,
 };
