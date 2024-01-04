@@ -10,7 +10,7 @@ const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full red-darked-gradient p-[1px] rounded-[20px] shadow-card'
+      className='w-full red-orange-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
         options={{
@@ -37,14 +37,11 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} className="flex flex-row justify-center items-center">
         <p className={styles.sectionHeadText}>Introduction</p>
       </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-black text-[17px] max-w-3xl leading-[30px]'
-      >
+      <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-black text-[20px] leading-[30px] text-center'>
         I'm a skilled software developer with experience in TypeScript and
         JavaScript, and expertise in frameworks like React, Node.js, and
         Three.js. I'm a quick learner and collaborate closely with clients to

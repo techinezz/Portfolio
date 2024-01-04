@@ -34,20 +34,23 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
-  background: -webkit-linear-gradient(
-    -90deg,
-    #804dee 0%,
-    rgba(60, 51, 80, 0) 100%
-  );
+/* timeline.css */
+.vertical-timeline::before {
+  background: #000000;
+  border-radius: 5px;
 }
 
-.red-darked-gradient {
+
+.red-orange-gradient {
   background: "#FF0000";
   background: linear-gradient(90.13deg, #FF0000 1.9%, #FFA500 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #FF0000 1.9%, #FFA500 97.5%);
+}
+
+.red-to-black-gradient {
+  background: #FF0000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FF0000, #000000); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FF0000, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .orange-text-gradient {

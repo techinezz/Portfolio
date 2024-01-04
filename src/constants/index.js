@@ -11,9 +11,10 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    kickx,
+    gendex,
+    mangacon,
+    gemstats,
   } from "../assets";
   
   export const navLinks = [
@@ -124,7 +125,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "KickX",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -141,11 +142,11 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: kickx,
+      source_code_link: "https://github.com/techinezz/shoes-ecommerce",
     },
     {
-      name: "Job IT",
+      name: "Gendex",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -162,11 +163,11 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: gendex,
+      source_code_link: "https://github.com/techinezz/pokedex",
     },
     {
-      name: "Trip Guide",
+      name: "MangaCon",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
@@ -183,11 +184,11 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: mangacon,
+      source_code_link: "https://github.com/techinezz/MangaCon",
     },
     {
-      name: "Car Rent",
+      name: "GemStats",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -204,11 +205,11 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: gemstats,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Gendex",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -225,11 +226,11 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: gendex,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "MangaCon",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
@@ -246,7 +247,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: mangacon,
       source_code_link: "https://github.com/",
     },
   ];
