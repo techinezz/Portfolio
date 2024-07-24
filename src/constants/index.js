@@ -180,7 +180,7 @@ import {
       company_name: "Headstarter AI",
       icon: comingsoon,
       iconBg: "#383E56",
-      date: "COMING SOON",
+      date: "July 2024",
       points: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -192,8 +192,8 @@ import {
       title: "Internship Connection Program",
       company_name: "CodePath",
       icon: codepath,
-      iconBg: "#E6DEDD",
-      date: "COMING SOON",
+      iconBg: "#383E56",
+      date: "June 2024",
       points: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -206,7 +206,7 @@ import {
       company_name: "CodePath",
       icon: codepath,
       iconBg: "#383E56",
-      date: "COMING SOON",
+      date: "June 2024",
       points: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
