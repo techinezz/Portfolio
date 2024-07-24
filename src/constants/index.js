@@ -13,6 +13,7 @@ import {
     gemstats,
     portfolio,
     comingsoon,
+    codepath,
   } from "../assets";
   
   export const navLinks = [
@@ -175,8 +176,8 @@ import {
 
   const experiences = [
     {
-      title: "COMING SOON",
-      company_name: "COMPANY",
+      title: "Software Engineer Fellow",
+      company_name: "Headstarter AI",
       icon: comingsoon,
       iconBg: "#383E56",
       date: "COMING SOON",
@@ -188,9 +189,9 @@ import {
       ],
     },
     {
-      title: "COMING SOON",
-      company_name: "COMPANY",
-      icon: comingsoon,
+      title: "Internship Connection Program",
+      company_name: "CodePath",
+      icon: codepath,
       iconBg: "#E6DEDD",
       date: "COMING SOON",
       points: [
@@ -201,9 +202,9 @@ import {
       ],
     },
     {
-      title: "COMING SOON",
-      company_name: "COMPANY",
-      icon: comingsoon,
+      title: "Techincal Interview Prep",
+      company_name: "CodePath",
+      icon: codepath,
       iconBg: "#383E56",
       date: "COMING SOON",
       points: [

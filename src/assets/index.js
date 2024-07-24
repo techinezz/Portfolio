@@ -20,6 +20,7 @@ import gemstats from "./gemstats.png";
 import portfolio from "./portfolio.png";
 
 import comingsoon from "./company/comingsoon.jpg";
+import codepath from './company/codepath.png';
 
 export {
   logo,
@@ -41,4 +42,5 @@ export {
   gemstats,
   portfolio,
   comingsoon,
+  codepath,
 };
