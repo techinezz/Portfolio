@@ -14,6 +14,7 @@ import {
     portfolio,
     comingsoon,
     codepath,
+    headstarter,
   } from "../assets";
   
   export const navLinks = [
@@ -178,7 +179,7 @@ import {
     {
       title: "Software Engineer Fellow",
       company_name: "Headstarter AI",
-      icon: comingsoon,
+      icon: headstarter,
       iconBg: "#383E56",
       date: "July 2024",
       points: [
@@ -195,10 +196,10 @@ import {
       iconBg: "#383E56",
       date: "June 2024",
       points: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "A comprehensive initiative aimed at bridging the gap between academic learning and industry demands.",
+        "Hands-on experience through real-world projects and internships.",
+        "Career development workshops including resume building, networking, and interview preparation.",
+        "Mentorship from experienced engineers and professionals in the tech industry.",
       ],
     },
     {
@@ -208,10 +209,10 @@ import {
       iconBg: "#383E56",
       date: "June 2024",
       points: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "An intensive course designed to equip aspiring software engineers with the skills and strategies needed to excel in technical interviews.",
+        "Mastering data structures and algorithms, I learn to solve complex problems and develop efficient solutions.",
+        "Engaging in mock interviews and peer programming sessions, I gain valuable feedback and improve my problem-solving skills.",
+        "Understanding key concepts such as arrays, linked lists, trees, graphs, and dynamic programming.",
       ],
     },
   ];
