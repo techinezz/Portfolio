@@ -21,6 +21,7 @@ import portfolio from "./portfolio.png";
 
 import comingsoon from "./company/comingsoon.jpg";
 import codepath from './company/codepath.png';
+import headstarter from './company/headstarter.jpg';
 
 export {
   logo,
@@ -43,4 +44,5 @@ export {
   portfolio,
   comingsoon,
   codepath,
+  headstarter,
 };
