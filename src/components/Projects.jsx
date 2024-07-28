@@ -42,19 +42,21 @@ const ProjectCard = ({
           </div>
         </div>
 
-        <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+        <div className='mt-5 flex flex-col items-center text-center'>
+          <div onClick={() => window.open(source_code_link, "_blank")} className='flex justify-center items-center cursor-pointer'>
+          <h3 className='text-white font-bold text-[24px] hover:text-red-400'>{name}</h3>
+          </div>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
-        <div className='mt-4 flex flex-wrap gap-2'>
-          {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
-              #{tag.name}
-            </p>
+        <div className='mt-4 flex flex-wrap gap-2 justify-center'>
+        {tags.map((tag) => (
+          <p
+          key={`${name}-${tag.name}`}
+          className={`text-[14px] ${tag.color}`}
+          >
+          {tag.name}
+          </p>
           ))}
         </div>
       </Tilt>
@@ -71,9 +73,12 @@ const Projects = () => {
 
       <div className='w-full flex'>
         <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-3 text-black text-[20px] leading-[30px] text-center'>
-          These projects reflect my personal interests and mark the beginning of an exciting journey in front-end development. 
-          Eager to delve deeper into this field, I look forward to exploring new technologies and learning valuable skills and techniques 
-          from experienced software engineers.
+        These projects reflect my personal interests and mark the beginning of an exciting journey in software development. 
+        Driven by a passion for creating intuitive and engaging user experiences, I am eager to delve deeper into this field. 
+        I look forward to exploring cutting-edge technologies and to continuously refine my skills in responsive design, 
+        performance optimization, and accessibility. By learning from experienced software engineers and staying updated with 
+        industry trends, I aim to contribute effectively to innovative projects and deliver high-quality solutions that delight 
+        users and meet business goals.
         </motion.p>
       </div>
 
