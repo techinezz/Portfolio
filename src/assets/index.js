@@ -3,6 +3,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import linkedin from "./linkedin.jpg";
+import resume from "./resume.jpg";
 
 import css from "./tech/css.png";
 import html from "./tech/html.png";
@@ -18,6 +19,7 @@ import gendex from "./gendex.png";
 import mangacon from "./mangacon.png";
 import gemstats from "./gemstats.png";
 import portfolio from "./portfolio.png";
+import sipandplay from "./sipandplay.png";
 
 import comingsoon from "./company/comingsoon.jpg";
 import codepath from './company/codepath.png';
@@ -27,6 +29,7 @@ export {
   logo,
   github,
   linkedin,
+  resume,
   menu,
   close,
   css,
@@ -42,6 +45,7 @@ export {
   mangacon,
   gemstats,
   portfolio,
+  sipandplay,
   comingsoon,
   codepath,
   headstarter,

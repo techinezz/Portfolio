@@ -26,12 +26,16 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()} className="flex flex-row justify-center items-center">
-        <p className={styles.sectionHeadText}>Introduction</p>
+        <p className={styles.sectionHeadText}>About</p>
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-black text-[20px] leading-[30px] text-center'>
-      An ambitious student at Queens College, passionate about building programming projects and learning new technologies. 
-      Eager to embark on a career in tech. Also intrigued by the field in machine learning and AI.
+      An ambitious student at Queens College, I am passionate about building programming projects and continuously learning new technologies.
+      My journey in tech is fueled by a deep curiosity and a drive to solve complex problems through innovative solutions. 
+      Eager to embark on a career in the tech industry, I am committed to honing my skills in both front-end and back-end development. 
+      Additionally, I am intrigued by the rapidly evolving fields of machine learning and AI, and I am enthusiastic about the potential 
+      of these technologies to revolutionize various industries. My goal is to integrate my technical expertise and creativity to develop 
+      impactful projects that can make a meaningful difference.
       </motion.p>
 
       <div className='mt-20 gap-10 flex justify-center flex-wrap'>

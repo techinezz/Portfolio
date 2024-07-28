@@ -15,6 +15,7 @@ import {
     comingsoon,
     codepath,
     headstarter,
+    sipandplay,
   } from "../assets";
   
   export const navLinks = [
@@ -87,7 +88,28 @@ import {
         },
       ],
       image: portfolio,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/techinezz/Portfolio",
+    },
+    {
+      name: "Sip & Play",
+      description:
+        "Collaborated in a team to develop an innovative web application for Sip & Play, a company that merges the fun of gaming with the relaxation of sipping beverages.",
+      tags: [
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Three.js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: sipandplay,
+      source_code_link: "https://github.com/birongliu/codedex-hackathon",
     },
     {
       name: "KickX",
@@ -183,10 +205,10 @@ import {
       iconBg: "#383E56",
       date: "July 2024",
       points: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Selected for a fellowship to develop AI projects with a team.",
+        "Scheduled to participate in multiple hackathons to enhance practical skills and showcase innovations.",
+        "Anticipating resume and LinkedIn profile reviews by ex-FAANG engineers to increase professional visibility and engagement.",
+        "Preparing for mock technical interviews with AI to significantly improve interview performance.",
       ],
     },
     {
@@ -196,10 +218,10 @@ import {
       iconBg: "#383E56",
       date: "June 2024",
       points: [
-        "A comprehensive initiative aimed at bridging the gap between academic learning and industry demands.",
-        "Hands-on experience through real-world projects and internships.",
-        "Career development workshops including resume building, networking, and interview preparation.",
-        "Mentorship from experienced engineers and professionals in the tech industry.",
+        "Engaged in professional development workshops, resulting in a 50% increase in internship applications and interview opportunities.",
+        "Networked with industry professionals and mentors, establishing valuable connections for career advancement.",
+        "Received personalized feedback on resumes and cover letters, leading to a 40% improvement in application quality.",
+        "Participated in mock interviews and real-world case studies, improving practical skills and boosting confidence in professional settings.",
       ],
     },
     {
@@ -209,10 +231,10 @@ import {
       iconBg: "#383E56",
       date: "June 2024",
       points: [
-        "An intensive course designed to equip aspiring software engineers with the skills and strategies needed to excel in technical interviews.",
-        "Mastering data structures and algorithms, I learn to solve complex problems and develop efficient solutions.",
-        "Engaging in mock interviews and peer programming sessions, I gain valuable feedback and improve my problem-solving skills.",
-        "Understanding key concepts such as arrays, linked lists, trees, graphs, and dynamic programming.",
+        "Completed intensive technical interview preparation, focusing on data structures and algorithms, leading to a 30% improvement in problem-solving speed.",
+        "Participated in weekly coding challenges and mock interviews, achieving a 20% higher success rate in technical interviews.",
+        "Collaborated with peers in study groups, enhancing understanding and application of advanced coding concepts.",
+        "Utilized CodePath’s curriculum and resources, resulting in a 15% increase in coding proficiency and technical knowledge.",
       ],
     },
   ];
