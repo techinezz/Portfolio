@@ -15,7 +15,7 @@ const Hero = () => {
         <div onClick={() => window.open("https://github.com/techinezz")} className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
           <img src={github} alt="Github" className="w-1/2 h-1/2 object-contain" />
         </div>
-        <div onClick={() => window.open("https://www.linkedin.com/in/yeifran-martinez-889343291/")} className=' w-10 h-10 flex justify-center items-center cursor-pointer'>
+        <div onClick={() => window.open("www.linkedin.com/in/yeifran-martinez")} className=' w-10 h-10 flex justify-center items-center cursor-pointer'>
           <img src={linkedin} alt="linkedin" className="w-12 h-12 object-contain rounded-lg" />
         </div>
         <div onClick={() => window.open("https://drive.google.com/file/d/1BaSlyAd1sW2qz99IXm0WdcBz8OQLU_AL/view?usp=sharing")} className=' w-10 h-10 flex justify-center items-center cursor-pointer'>
